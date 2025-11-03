@@ -471,7 +471,7 @@ class ModernServer {
     </div>
 
     <nav>
-        <div class="logo">LOKITH</div>
+        <div class="logo">LOKITH Daddy</div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#features">Features</a></li>
