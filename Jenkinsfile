@@ -5,8 +5,8 @@ pipeline {
     
     environment {
         // AWS Configuration
-        AWS_ACCOUNT_ID = '666098475707'
-        AWS_REGION = 'us-east-1'
+        AWS_ACCOUNT_ID = '922754696039'
+        AWS_REGION = 'ap-south-2'
         ECR_REPOSITORY = 'my-web-app'
         
         // Docker Configuration
@@ -21,7 +21,7 @@ pipeline {
         AWS_CREDENTIALS = 'aws-credentials-id'
         
         // Email Configuration
-        EMAIL_RECIPIENTS = 'your-email@example.com'
+        EMAIL_RECIPIENTS = 'rahuljivisu2004@gmail.com'
     }
     
     stages {
