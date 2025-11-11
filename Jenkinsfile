@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         // AWS Configuration
-        AWS_ACCOUNT_ID = '666098475707'
+        AWS_ACCOUNT_ID = '922754696039'
         AWS_REGION = 'us-east-1'
         ECR_REPOSITORY = 'my-web-app'
         
