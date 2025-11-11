@@ -4,7 +4,7 @@ pipeline {
     environment {
         // AWS Configuration
         AWS_ACCOUNT_ID = '922754696039'
-        AWS_REGION = 'us-east-1'
+        AWS_REGION = 'ap-south-2'
         ECR_REPOSITORY = 'my-web-app'
         
         // Docker Configuration
