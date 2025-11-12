@@ -171,7 +171,7 @@ EOF
         success {
             echo '==================== Pipeline Succeeded ===================='
             emailext (
-                subject: "✅ Jenkins Pipeline Success: ${env.JOB_NAME} - Build #${env.BUILD_NUMBER}",
+                subject: "Jenkins Pipeline Success: ${env.JOB_NAME} - Build #${env.BUILD_NUMBER}",
                 body: """
                     <h2>Build Success!</h2>
                     <p><strong>Job:</strong> ${env.JOB_NAME}</p>
@@ -189,7 +189,7 @@ EOF
         failure {
             echo '==================== Pipeline Failed ===================='
             emailext (
-                subject: "❌ Jenkins Pipeline Failed: ${env.JOB_NAME} - Build #${env.BUILD_NUMBER}",
+                subject: "Jenkins Pipeline Failed: ${env.JOB_NAME} - Build #${env.BUILD_NUMBER}",
                 body: """
                     <h2>Build Failed!</h2>
                     <p><strong>Job:</strong> ${env.JOB_NAME}</p>
