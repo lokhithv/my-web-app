@@ -68,7 +68,7 @@ app.get('/', (req, res) => {
 </head>
 <body>
     <div class="container">
-        <h1>Hello from Lokith V</h1>
+        <h1>Hello from Diviya</h1>
         <p>Simple & Modern Server Running</p>
         <div class="info">
             <div class="info-item">Version: 1.0.0</div>
